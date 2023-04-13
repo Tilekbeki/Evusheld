@@ -1473,14 +1473,20 @@ footer .Block_Img img:first-child {
     font-size: 28px;
     text-align: center;
   }
+  .OmicronisDangerous {
+    padding: 166px 0 40px 0;
+  }
   .OmicronisDangerous_Header h2 {
     font-size: 26px;
   }
   .OmicronisDangerous_Block_Container {
     width: 100%;
-    min-height: 480px;
+    min-height: 325px;
     padding: 25px;
     font-size: 20px;
+  }
+  .WhyHappendRisk {
+    padding: 40px 0 40px 0;
   }
   .WhyHappendRisk_Block_One {
     width: 100%;
@@ -1493,6 +1499,9 @@ footer .Block_Img img:first-child {
   }
   .WhyHappendRisk_Header h2 {
     font-size: 26px;
+  }
+  .PatientsOfGroup {
+    padding: 40px 0 40px 0;
   }
   .PatientsOfGroup_Header h2 {
     font-size: 26px;
@@ -1509,14 +1518,24 @@ footer .Block_Img img:first-child {
   .PatientsOfGroup_Block_Two_Text ul li p {
     padding-left: 4px;
   }
+  .RiskIncrease {
+    padding: 40px 0 40px 0;
+  }
   .RiskIncrease_Header h2 {
     font-size: 26px;
+  }
+  .Whypatients {
+    padding: 40px 0 40px 0;
   }
   .Whypatients_Header h2 {
     font-size: 26px;
   }
   .Whypatients_Block_Image {
     display: none;
+  }
+  .ResultsOfUsing {
+    min-height: 1100px;
+    padding: 40px 0 40px 0;
   }
   .ResultsOfUsing_Block {
     padding-left: 2px;
@@ -1530,6 +1549,10 @@ footer .Block_Img img:first-child {
   .ResultsOfUsing_Header h2 {
     font-size: 26px;
   }
+  .ImportantNew {
+    min-height: 830px;
+    padding: 40px 0 40px 0;
+  }
   .ImportantNew_Header h2 {
     font-size: 26px;
   }
@@ -1538,6 +1561,9 @@ footer .Block_Img img:first-child {
   }
   .ImportantNew_StatisticText {
     padding-right: 2px;
+  }
+  .IndicationsForUse {
+    padding: 40px 0 40px 0;
   }
   .IndicationsForUse_Header h2 {
     font-size: 26px;
@@ -1559,6 +1585,9 @@ footer .Block_Img img:first-child {
   }
   .IndicationsForUse_Buttons_Btn_Two button {
     width: 100%;
+  }
+  .ProveBase {
+    padding: 40px 0 40px 0;
   }
   .ProveBase_Header h2 {
     font-size: 26px;
@@ -1593,6 +1622,9 @@ footer .Block_Img img:first-child {
   .ProveBase_KnowMore_Button {
     width: 80%;
   }
+  .HowDoesItWork {
+    padding: 40px 0 40px 0;
+  }
   .HowDoesItWork_Header h2 {
     font-size: 26px;
   }
@@ -1609,18 +1641,28 @@ footer .Block_Img img:first-child {
   .HowDoesItWork_Video_Wrapper {
     display: none;
   }
+  .DosageRegimen {
+    padding: 40px 0 40px 0;
+  }
   .DosageRegimen_Block_One_Header h2 {
     font-size: 26px;
   }
   .DosageRegimen_Block_Two {
     display: none;
   }
+  .Locations {
+    padding: 40px 0 40px 0;
+  }
   .Locations_Block_Text {
     font-size: 26px;
   }
   .Locations_Block_Button {
-    width: 100%;
+    width: 90%;
+    min-height: 384px;
     padding: 10px;
+  }
+  .ListOfLiterature {
+    padding: 40px 0 40px 0;
   }
   .ListOfLiterature_Header h2 {
     font-size: 26px;
