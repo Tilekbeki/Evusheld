@@ -1,0 +1,1636 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  min-height: 560px;
+  padding-top: 60px;
+  background: #F9F9F9;
+}
+
+.Banner_Block {
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  border: solid 1px #E2E2E2;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1300px;
+  background: linear-gradient(258.19deg, #66479B 0%, #4E86A5 52.6%, #43B3AE 100%);
+  border-radius: 34px;
+  height: 500px;
+}
+.Banner_Block_FamilyImg {
+  display: inline;
+  float: right;
+}
+.Banner_Block_FamilyImg img {
+  width: 540px;
+  height: 500px;
+  border-radius: 0 34px 34px 0;
+}
+.Banner_Block_Header {
+  display: flex;
+  align-items: center;
+  width: 495px;
+}
+.Banner_Block_Header h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  padding: 0;
+  color: #FFFFFF;
+}
+.Banner_Block_Logo {
+  display: flex;
+  align-items: center;
+  background: url("../icons/Rectangle.svg") no-repeat center/cover;
+  width: 107px;
+  height: 130px;
+}
+.Banner_Block_Logo img {
+  display: block;
+  margin: 0 auto;
+  width: 93px;
+  height: 89px;
+}
+.Banner_Block_DisignElement {
+  position: absolute;
+  width: 580px;
+  height: 493px;
+  left: 30px;
+  bottom: 0;
+  background: url("../icons/Y.png") no-repeat center/cover;
+  background-blend-mode: color-dodge;
+  opacity: 0.1;
+}
+
+.OmicronisDangerous {
+  z-index: -3;
+  position: relative;
+  padding: 166px 0 99px 0;
+  background: #F9F9F9;
+}
+.OmicronisDangerous .container {
+  max-width: 1500px;
+}
+.OmicronisDangerous_Header {
+  margin-bottom: 32px;
+}
+.OmicronisDangerous_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  margin-bottom: 0;
+  padding: 0;
+  float: left;
+}
+.OmicronisDangerous_Block {
+  display: flex;
+  gap: 140px;
+}
+.OmicronisDangerous_Block_Information {
+  width: 630px;
+}
+.OmicronisDangerous_Block_Information_Text {
+  margin-bottom: 25px;
+}
+.OmicronisDangerous_Block_Information_Text p {
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 23px */
+  color: #000000;
+}
+.OmicronisDangerous_Block_Information ul {
+  list-style: none;
+  padding: 0;
+}
+.OmicronisDangerous_Block_Information ul li {
+  display: flex;
+  align-items: flex-start;
+}
+.OmicronisDangerous_Block_Information ul li p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  padding-left: 20px;
+  /* or 25px */
+}
+.OmicronisDangerous_Block_Information ul li img {
+  width: 30px;
+  height: 30px;
+  color: #000000;
+}
+.OmicronisDangerous_Block_Container {
+  width: 520px;
+  height: 514px;
+  background: rgba(106, 72, 156, 0.1);
+  border: 3px solid #6A489C;
+  border-radius: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* or 31px */
+  text-align: center;
+  padding: 133px 59px 102px 59px;
+  color: #6A489C;
+}
+
+.rStain {
+  position: absolute;
+  display: inline;
+  width: 100px;
+  right: 400px;
+  top: -80px;
+  z-index: -2;
+}
+
+.OverViruses {
+  position: absolute;
+  left: 150px;
+  width: 100px;
+  z-index: -1;
+}
+
+.lStain {
+  position: absolute;
+  display: inline;
+  width: 100px;
+  left: 150px;
+  z-index: -3;
+}
+
+.WhyHappendRisk {
+  position: relative;
+  min-height: 546px;
+  background: rgba(71, 172, 173, 0.12);
+  padding: 115px 0 160px 0;
+}
+.WhyHappendRisk_Header {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+.WhyHappendRisk_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  padding: 0;
+  text-align: center;
+}
+.WhyHappendRisk_Block {
+  display: flex;
+  justify-content: space-between;
+}
+.WhyHappendRisk_Block_One {
+  padding: 20px;
+  width: 410px;
+  min-height: 157px;
+  background: #FFFFFF;
+  border: 3px solid #46ADAD;
+  border-radius: 12px;
+  font-weight: 400;
+  color: #218080;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+.WhyHappendRisk_Block_One span {
+  font-weight: 600;
+}
+.WhyHappendRisk_Block_Two {
+  padding: 20px;
+  width: 410px;
+  min-height: 157px;
+  align-items: center;
+  background: #FFFFFF;
+  border: 3px solid #46ADAD;
+  border-radius: 12px;
+  font-weight: 400;
+  color: #218080;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+.WhyHappendRisk_Block_Two span {
+  font-weight: 600;
+}
+.WhyHappendRisk_Block_Three {
+  padding: 20px;
+  width: 410px;
+  min-height: 157px;
+  align-items: center;
+  background: #FFFFFF;
+  border: 3px solid #46ADAD;
+  border-radius: 12px;
+  font-weight: 400;
+  color: #218080;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+.WhyHappendRisk_Block_Three span {
+  font-weight: 600;
+}
+
+.PatientsOfGroup {
+  background: #F9F9F9;
+  min-height: 924px;
+  padding: 140px 0 180px 0;
+}
+.PatientsOfGroup_Header {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+.PatientsOfGroup_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  text-align: center;
+  padding: 0;
+}
+.PatientsOfGroup_Block {
+  display: flex;
+  justify-content: space-between;
+}
+.PatientsOfGroup_Block span {
+  font-weight: 600;
+  font-weight: 700;
+}
+.PatientsOfGroup_Block_One {
+  width: 610px;
+  min-height: 490px;
+  background: rgba(70, 173, 173, 0.05);
+  border: 3px solid #46ADAD;
+  border-radius: 16px;
+}
+.PatientsOfGroup_Block_One_Header {
+  width: 100%;
+  min-height: 130px;
+  background: #46ADAD;
+  border-radius: 10px 10px 0px 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  align-items: center;
+  padding: 20px;
+}
+.PatientsOfGroup_Block_One_Text {
+  padding: 32px 58px 32px 55px;
+}
+.PatientsOfGroup_Block_One_Text ul {
+  padding: 0;
+  list-style: none;
+}
+.PatientsOfGroup_Block_One_Text ul li {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 16px;
+}
+.PatientsOfGroup_Block_One_Text ul li p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.PatientsOfGroup_Block_One_Text ul li img {
+  width: 30px;
+  height: 30px;
+}
+.PatientsOfGroup_Block_Two {
+  width: 610px;
+  min-height: 490px;
+  background: rgba(106, 72, 156, 0.05);
+  border: 3px solid #6A489C;
+  border-radius: 16px;
+}
+.PatientsOfGroup_Block_Two_Header {
+  width: 100%;
+  min-height: 130px;
+  background: #6A489C;
+  border-radius: 10px 10px 0px 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  align-items: center;
+  padding: 20px;
+}
+.PatientsOfGroup_Block_Two_Text {
+  padding: 32px 58px 32px 55px;
+}
+.PatientsOfGroup_Block_Two_Text ul {
+  padding: 0;
+  list-style: none;
+}
+.PatientsOfGroup_Block_Two_Text ul li {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 16px;
+}
+.PatientsOfGroup_Block_Two_Text ul li p {
+  padding-left: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.PatientsOfGroup_Block_Two_Text ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.lQuestion {
+  position: absolute;
+  width: 100px;
+  right: 10%;
+  bottom: 50px;
+}
+
+.rQuestion {
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  width: 100px;
+}
+
+.RiskIncrease {
+  position: relative;
+  min-height: 467px;
+  background: rgba(106, 72, 156, 0.12);
+  padding: 120px 0 40px 0;
+}
+.RiskIncrease_Header {
+  margin-bottom: 32px;
+}
+.RiskIncrease_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  text-align: center;
+  padding: 0;
+}
+.RiskIncrease_Text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+  /* or 25px */
+  text-align: center;
+  color: #000000;
+  width: 850px;
+  margin: 0 auto;
+}
+.RiskIncrease_Text span {
+  font-weight: 600;
+}
+
+.Viruses {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  bottom: 200px;
+}
+
+.Whypatients {
+  z-index: 2;
+  position: relative;
+  padding: 140px 0 273px 0;
+  background: #F9F9F9;
+}
+.Whypatients_Header {
+  width: 733px;
+  margin-bottom: 32px;
+}
+.Whypatients_Header h2 {
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+}
+.Whypatients_Block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Whypatients_Block span {
+  font-weight: 600;
+}
+.Whypatients_Block_Text {
+  width: 672px;
+}
+.Whypatients_Block_Text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  line-height: 150%;
+  font-weight: 400;
+  color: #000000;
+}
+.Whypatients_Block_Text p:first-child {
+  margin-bottom: 16px;
+}
+.Whypatients_Block_Image {
+  width: 555px;
+  height: 339px;
+}
+.Whypatients_Block_Image img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.ResultsOfUsing {
+  min-height: 914px;
+  background: rgba(1, 193, 178, 0.12);
+}
+.ResultsOfUsing_Header {
+  margin-bottom: 30px;
+  width: 788px;
+}
+.ResultsOfUsing_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+}
+.ResultsOfUsing_Block {
+  display: flex;
+  padding-left: 40px;
+  justify-content: space-between;
+}
+.ResultsOfUsing_Block_Content {
+  position: relative;
+  width: 628px;
+}
+.ResultsOfUsing_Block_Content span {
+  font-weight: 600;
+  color: #6A489C;
+}
+.ResultsOfUsing_Block_Content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+  color: #000000;
+}
+.ResultsOfUsing_Block_Content ul {
+  padding: 0;
+  margin: 0;
+}
+.ResultsOfUsing_Block_Content ul li {
+  display: flex;
+  align-items: flex-start;
+}
+.ResultsOfUsing_Block_Content ul li img {
+  width: 38px;
+  height: 38px;
+}
+.ResultsOfUsing_Block_Content ul li p {
+  padding-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #000000;
+  float: left;
+  line-height: 150%;
+}
+.ResultsOfUsing_Block_Content button {
+  position: absolute;
+  left: -40px;
+  width: 630px;
+  padding: 30px;
+  background: linear-gradient(258.19deg, rgba(41, 209, 202, 0.95) 0%, rgba(131, 78, 165, 0.79) 49.78%, rgba(102, 71, 155, 0.89) 100%);
+  border-radius: 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  line-height: 28px;
+  color: #FFFFFF;
+  font-weight: 700;
+  border: none;
+}
+.ResultsOfUsing_Block_Images {
+  padding-top: 117px;
+  width: 520px;
+  height: 543px;
+}
+.ResultsOfUsing_Block_Images_FirstCol {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.ResultsOfUsing_Block_Images_FirstCol img {
+  width: 244px;
+  border-radius: 20px;
+}
+.ResultsOfUsing_Block_Images_SecondCol {
+  display: flex;
+  justify-content: space-between;
+}
+.ResultsOfUsing_Block_Images_SecondCol img {
+  width: 160px;
+  border-radius: 16px;
+}
+
+.ImportantNew {
+  min-height: 1000px;
+  padding: 143px 0 40px 0;
+  background: #F9F9F9;
+}
+.ImportantNew_Header {
+  margin-bottom: 32px;
+}
+.ImportantNew_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+}
+.ImportantNew_Block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ImportantNew_Block_Content {
+  width: 590px;
+}
+.ImportantNew_Block_Content ul {
+  list-style: none;
+  padding: 0;
+}
+.ImportantNew_Block_Content ul li {
+  display: flex;
+}
+.ImportantNew_Block_Content ul li p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 16px;
+}
+.ImportantNew_Block_Image {
+  position: relative;
+}
+.ImportantNew_Block_Image img:first-child {
+  position: absolute;
+  width: 573px;
+  height: 382px;
+  top: 36px;
+  left: 20px;
+}
+.ImportantNew_Block_Image img:last-child {
+  width: 609px;
+  height: 546px;
+}
+.ImportantNew_StatisticText {
+  width: 630px;
+  background: rgba(1, 193, 178, 0.05);
+  border-color: #01C1B2;
+  border-width: 3px 3px 3px 18px;
+  border-style: solid;
+  border-radius: 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #218F87;
+  padding: 24px 63px 4px 30px;
+}
+
+.IndicationsForUse {
+  min-height: 1247px;
+  background: #F9F9F9;
+  padding: 120px 0 140px 0;
+}
+.IndicationsForUse_Header {
+  margin: 0 auto;
+  width: 588px;
+  margin-bottom: 64px;
+}
+.IndicationsForUse_Header h2 {
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  text-align: center;
+}
+.IndicationsForUse_Block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.IndicationsForUse_Block_One {
+  width: 620px;
+}
+.IndicationsForUse_Block_One_Img {
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+.IndicationsForUse_Block_One_Img img {
+  display: block;
+  margin: 0 auto;
+}
+.IndicationsForUse_Block_One_Text {
+  background: rgba(106, 72, 156, 0.05);
+  border: 3px solid #6A489C;
+  border-radius: 12px;
+  padding: 32px 26px 32px 22px;
+  width: 620px;
+}
+.IndicationsForUse_Block_One_Text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6A489C;
+  margin-bottom: 0;
+}
+.IndicationsForUse_Block_Two {
+  width: 620px;
+  background: rgba(70, 173, 173, 0.05);
+  border: 3px solid #46ADAD;
+  border-radius: 12px;
+  padding: 24px 38px 32px 28px;
+}
+.IndicationsForUse_Block_Two_Header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #218080;
+  margin-bottom: 16px;
+}
+.IndicationsForUse_Block_Two_Text ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.IndicationsForUse_Block_Two_Text ul li {
+  display: flex;
+}
+.IndicationsForUse_Block_Two_Text ul li p:first-child {
+  padding-right: 16px;
+}
+.IndicationsForUse_Block_Two_Text ul li p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #218080;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+}
+.IndicationsForUse_Buttons {
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  flex-direction: column;
+}
+.IndicationsForUse_Buttons_Btn_One {
+  width: 350px;
+  height: 87px;
+  background: linear-gradient(258.19deg, rgba(41, 209, 202, 0.95) 0%, rgba(131, 78, 165, 0.79) 49.78%, rgba(102, 71, 155, 0.89) 100%);
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 20px;
+}
+.IndicationsForUse_Buttons_Btn_One button {
+  width: 350px;
+  height: 87px;
+  background: linear-gradient(258.19deg, rgba(41, 209, 202, 0.95) 0%, rgba(131, 78, 165, 0.79) 49.78%, rgba(102, 71, 155, 0.89) 100%);
+  border-radius: 12px;
+  border: none;
+}
+.IndicationsForUse_Buttons_Btn_One button a {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 700;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.IndicationsForUse_Buttons_Btn_Two {
+  width: 350px;
+  height: 87px;
+  background: linear-gradient(258.19deg, #66479B 0%, #834EA5 50.52%, #43B3AE 100%);
+  border-radius: 12px;
+  border: none;
+  padding: 4px;
+}
+.IndicationsForUse_Buttons_Btn_Two button {
+  border: 10px solid white;
+  background: white;
+  border-radius: 10px;
+  width: 342px;
+  height: 79px;
+  padding: 12px;
+}
+.IndicationsForUse_Buttons_Btn_Two button a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 700;
+  line-height: 150%;
+  color: #000000;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(258.19deg, #66479B 0%, #834EA5 50.52%, #43B3AE 100%);
+}
+
+.ProveBase {
+  background: rgba(106, 72, 156, 0.1);
+  padding: 120px 0 140px 0;
+}
+.ProveBase_Header {
+  margin: 0 auto;
+  width: 394px;
+  margin-bottom: 56px;
+}
+.ProveBase_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  text-align: center;
+  margin-bottom: 0;
+}
+.ProveBase_Block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.ProveBase_Block_One {
+  background: #ffffff;
+  min-height: 493px;
+  width: 620px;
+  border-radius: 16px;
+  padding: 43px 54px 20px 32px;
+}
+.ProveBase_Block_One_Header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.ProveBase_Block_One_Header p {
+  margin-bottom: 0;
+  padding-left: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #6A489C;
+}
+.ProveBase_Block_One_Content ul {
+  padding: 0;
+  list-style: none;
+}
+.ProveBase_Block_One_Content ul li {
+  display: flex;
+  align-items: flex-start;
+}
+.ProveBase_Block_One_Content ul li p {
+  padding-left: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+  line-height: 140%;
+  color: #43276B;
+}
+.ProveBase_Block_Two {
+  background: #ffffff;
+  min-height: 493px;
+  width: 620px;
+  border-radius: 16px;
+  padding: 43px 54px 20px 32px;
+}
+.ProveBase_Block_Two_Header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.ProveBase_Block_Two_Header p {
+  margin-bottom: 0;
+  padding-left: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #6A489C;
+}
+.ProveBase_Block_Two_Content ul {
+  padding: 0;
+  list-style: none;
+}
+.ProveBase_Block_Two_Content ul li {
+  display: flex;
+  align-items: flex-start;
+}
+.ProveBase_Block_Two_Content ul li p {
+  padding-left: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+  line-height: 140%;
+  color: #43276B;
+}
+.ProveBase_KnowMore {
+  width: 100%;
+  background: linear-gradient(258.19deg, #66479B 0%, #834EA5 50.52%, #43B3AE 100%);
+  border-radius: 16px;
+  height: 194px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 64px 0 47px;
+}
+.ProveBase_KnowMore_Text {
+  width: 647px;
+}
+.ProveBase_KnowMore_Text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.ProveBase_KnowMore_Button {
+  width: 294px;
+  height: 87px;
+}
+.ProveBase_KnowMore_Button button {
+  border-radius: 12px;
+  border: none;
+  background: #FFFFFF;
+  padding: 30px 56px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #7366A7;
+}
+
+.HowDoesItWork {
+  padding: 0 0 140px 0;
+}
+.HowDoesItWork .container {
+  max-width: 860px;
+}
+.HowDoesItWork_Header {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.HowDoesItWork_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.HowDoesItWork_Clauses {
+  margin-bottom: 52px;
+}
+.HowDoesItWork_Clauses ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+.HowDoesItWork_Clauses ul li p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  padding-left: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.HowDoesItWork_Video {
+  width: 850px;
+  margin: 0 auto;
+  height: 400px;
+  position: relative;
+}
+.HowDoesItWork_Video iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.HowDoesItWork_Video_Wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fade {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 2s, visibility 0s 2s;
+}
+
+.DosageRegimen {
+  min-height: 772px;
+  background: rgba(1, 193, 178, 0.1);
+  padding: 120px 0 140px 0;
+}
+.DosageRegimen_Block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.DosageRegimen_Block_One {
+  width: 735px;
+}
+.DosageRegimen_Block_One_Header {
+  margin-bottom: 40px;
+}
+.DosageRegimen_Block_One_Header h2 {
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  line-height: 140%;
+}
+.DosageRegimen_Block_One_Header h2 sup {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+}
+.DosageRegimen_Block_One_Text ul {
+  padding: 0;
+  list-style: none;
+}
+.DosageRegimen_Block_One_Text ul li {
+  display: flex;
+  margin-bottom: 24px;
+}
+.DosageRegimen_Block_One_Text ul li p {
+  padding: 0;
+  padding-left: 24px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+}
+.DosageRegimen_Block_One_Text ul li p span {
+  font-weight: 700;
+  font-size: 20px;
+  color: #01C1B2;
+}
+.DosageRegimen_Block_One_Two {
+  height: 587px;
+}
+.DosageRegimen_Block_One_Two img {
+  width: 100%;
+  height: 100%;
+}
+
+.Locations {
+  min-height: 543px;
+  background: #F9F9F9;
+  padding: 140px 0 40px 0;
+}
+.Locations_Block {
+  width: 100%;
+  height: 403px;
+  padding: 80px 0 90px 0;
+  background: linear-gradient(258.19deg, #43B3AE 0%, #834EA5 52.6%, #66479B 100%);
+  border-radius: 16px;
+}
+.Locations_Block_Text {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 46px;
+}
+.Locations_Block_Button {
+  width: 441px;
+  height: 87px;
+  margin: 0 auto;
+}
+.Locations_Block_Button button {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 30px 56px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #7366A7;
+}
+
+.ListOfLiterature {
+  min-height: 1583px;
+  width: 100%;
+  padding: 58px 0 78px 0;
+}
+.ListOfLiterature_Header {
+  margin-bottom: 54px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.ListOfLiterature_Header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #13353F;
+  text-align: left;
+  padding-left: 30px;
+}
+.ListOfLiterature ol li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.ListOfLiterature ol li a {
+  color: black;
+  font-size: 16px;
+}
+
+footer {
+  padding: 120px 0 40px 0;
+  min-height: 568px;
+  background: #131F56;
+}
+footer .container {
+  max-width: 1289px;
+}
+footer .Block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .Block_Text {
+  width: 855px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+footer .Block_Text p:first-child {
+  width: 715px;
+  font-weight: 500;
+}
+footer .Block_Text a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer .Block_Text address {
+  width: 777px;
+}
+footer .Block_Img {
+  width: 260px;
+}
+footer .Block_Img img:first-child {
+  display: block;
+  margin-bottom: 75px;
+}
+
+@media (max-width: 1200px) {
+  .OmicronisDangerous_Block_Container {
+    padding-top: 30px;
+  }
+  .WhyHappendRisk_Block {
+    flex-direction: column;
+  }
+  .WhyHappendRisk_Block_One {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .WhyHappendRisk_Block_Two {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .WhyHappendRisk_Block_Three {
+    margin: 0 auto;
+  }
+  .WhyHappendRisk .OverViruses {
+    top: 5px;
+  }
+  footer .Block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .PatientsOfGroup_Block {
+    flex-direction: column;
+  }
+  .PatientsOfGroup_Block_One {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .PatientsOfGroup_Block_Two {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .lQuestion {
+    right: 0%;
+  }
+  .rQuestion {
+    left: 0%;
+  }
+  .ResultsOfUsing {
+    min-height: 1142px;
+  }
+  .IndicationsForUse_Block_One {
+    width: 520px;
+  }
+  .IndicationsForUse_Block_One_Text {
+    width: 100%;
+  }
+  .IndicationsForUse_Block_Two {
+    width: 400px;
+  }
+  .ProveBase_Block_One {
+    border-radius: 16px 0px 0px 16px;
+  }
+  .ProveBase_Block_Two {
+    border-radius: 0px 16px 16px 0px;
+  }
+  .ListOfLiterature {
+    padding: 58px 20px 78px 20px;
+  }
+}
+@media (max-width: 991px) {
+  header .Banner_Block {
+    width: 680px;
+  }
+  header .Banner_Block_Header {
+    margin: 0 auto;
+  }
+  header .Banner_Block_Logo {
+    display: none;
+  }
+  header .Banner_Block_FamilyImg {
+    display: none;
+  }
+  .OmicronisDangerous_Header h2 {
+    text-align: center;
+  }
+  .OmicronisDangerous_Block {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .OmicronisDangerous_Block_Container {
+    margin: 0 auto;
+    height: 340px;
+    padding-bottom: 0px;
+  }
+  .rQuestion {
+    left: 0%;
+    top: 8px;
+    z-index: -1;
+  }
+  .Whypatients_Header h2 {
+    text-align: center;
+  }
+  .ResultsOfUsing {
+    min-height: 1474px;
+  }
+  .ResultsOfUsing_Header h2 {
+    text-align: center;
+  }
+  .ResultsOfUsing_Block {
+    flex-direction: column;
+  }
+  .ResultsOfUsing_Block_Content {
+    margin: 0 auto;
+  }
+  .ResultsOfUsing_Block_Content button {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .ResultsOfUsing_Block_Images {
+    margin: 0 auto;
+  }
+  .ImportantNew_Header {
+    margin: 0 auto;
+  }
+  .ImportantNew_Header h2 {
+    text-align: center;
+  }
+  .ImportantNew_Block {
+    flex-direction: column;
+  }
+  .ImportantNew_Block_Content {
+    margin: 0 auto;
+  }
+  .ImportantNew_Block_Image {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .ImportantNew_StatisticText {
+    margin: 0 auto;
+  }
+  .IndicationsForUse_Block {
+    flex-direction: column;
+  }
+  .IndicationsForUse_Block_One {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .IndicationsForUse_Block_Two {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .IndicationsForUse_Buttons {
+    width: 350px;
+  }
+  .HowDoesItWork_Video_Wrapper {
+    width: 97%;
+  }
+  .HowDoesItWork_Video_Wrapper img {
+    width: 100%;
+    height: 100%;
+  }
+  .DosageRegimen_Block {
+    flex-direction: column;
+  }
+  .DosageRegimen_Block_One_Header h2 {
+    text-align: center;
+  }
+  .Locations_Block_Text {
+    width: 100%;
+  }
+  .ListOfLiterature {
+    padding: 58px 30px 78px 30px;
+  }
+  .ListOfLiterature_Header {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .ListOfLiterature_Header h2 {
+    margin: 0 0 0 auto;
+  }
+  .ListOfLiterature_Header img {
+    margin: 0 auto 0 0;
+  }
+  .ListOfLiterature ol li a {
+    color: black;
+    font-size: 12px;
+  }
+  footer .Block_Text {
+    width: 100%;
+  }
+  footer .Block_Text p {
+    width: 100%;
+  }
+  footer .Block_Text address {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .Banner_Block_DisignElement {
+    width: 510px;
+  }
+  .OmicronisDangerous_Block_Information {
+    width: 100%;
+  }
+  .WhyHappendRisk .rStain {
+    display: none;
+  }
+  .WhyHappendRisk .lStain {
+    display: none;
+  }
+  .WhyHappendRisk .OverViruses {
+    display: none;
+  }
+  .PatientsOfGroup_Block_One {
+    width: 100%;
+  }
+  .PatientsOfGroup_Block_Two {
+    width: 100%;
+  }
+  .RiskIncrease .lQuestion {
+    display: none;
+  }
+  .RiskIncrease .rQuestion {
+    display: none;
+  }
+  .Whypatients_Block {
+    flex-direction: column;
+  }
+  .Whypatients_Block_Text {
+    width: 100%;
+  }
+  .Whypatients_Block_Image {
+    width: 100%;
+  }
+  .Whypatients .Viruses {
+    display: none;
+  }
+  .ResultsOfUsing_Block_Content {
+    width: 100%;
+  }
+  .ResultsOfUsing_Block_Content button {
+    width: 400px;
+  }
+  .ResultsOfUsing_Block_Images {
+    width: 100%;
+  }
+  .ResultsOfUsing_Block_Images_FirstCol {
+    width: 100%;
+    gap: 10px;
+  }
+  .ImportantNew_Block_Content {
+    width: 100%;
+  }
+  .ImportantNew_Block_Image img:first-child {
+    width: 100%;
+  }
+  .ImportantNew_Block_Image img:last-child {
+    width: 100%;
+  }
+  .ProveBase_Block {
+    flex-direction: column;
+  }
+  .ProveBase_Block_One {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+  .ProveBase_Block_Two {
+    width: 100%;
+    border-radius: 16px;
+  }
+  .ProveBase_KnowMore {
+    min-height: 260px;
+    padding: 20px 64px 20px 47px;
+  }
+  .HowDoesItWork_Video {
+    height: 278px;
+  }
+  .DosageRegimen_Block_One {
+    width: 100%;
+  }
+  .ListOfLiterature ol li a {
+    color: black;
+    font-size: 8px;
+  }
+  footer .Block_Text p:first-child {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  header .Banner {
+    width: 100%;
+  }
+  header .Banner_Block {
+    width: 100%;
+  }
+  header .Banner_Block_DisignElement {
+    width: 100%;
+  }
+  header .Banner_Block_Header {
+    width: 100%;
+  }
+  header .Banner_Block_Header h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .OmicronisDangerous_Header h2 {
+    font-size: 26px;
+  }
+  .OmicronisDangerous_Block_Container {
+    width: 100%;
+    min-height: 480px;
+    padding: 25px;
+    font-size: 20px;
+  }
+  .WhyHappendRisk_Block_One {
+    width: 100%;
+  }
+  .WhyHappendRisk_Block_Two {
+    width: 100%;
+  }
+  .WhyHappendRisk_Block_Three {
+    width: 100%;
+  }
+  .WhyHappendRisk_Header h2 {
+    font-size: 26px;
+  }
+  .PatientsOfGroup_Header h2 {
+    font-size: 26px;
+  }
+  .PatientsOfGroup_Block_One_Text {
+    padding-left: 2px;
+  }
+  .PatientsOfGroup_Block_One_Text ul li p {
+    padding-left: 4px;
+  }
+  .PatientsOfGroup_Block_Two_Text {
+    padding-left: 2px;
+  }
+  .PatientsOfGroup_Block_Two_Text ul li p {
+    padding-left: 4px;
+  }
+  .RiskIncrease_Header h2 {
+    font-size: 26px;
+  }
+  .Whypatients_Header h2 {
+    font-size: 26px;
+  }
+  .Whypatients_Block_Image {
+    display: none;
+  }
+  .ResultsOfUsing_Block {
+    padding-left: 2px;
+  }
+  .ResultsOfUsing_Block_Content button {
+    width: 100%;
+  }
+  .ResultsOfUsing_Block_Images {
+    display: none;
+  }
+  .ResultsOfUsing_Header h2 {
+    font-size: 26px;
+  }
+  .ImportantNew_Header h2 {
+    font-size: 26px;
+  }
+  .ImportantNew_Block_Image {
+    display: none;
+  }
+  .ImportantNew_StatisticText {
+    padding-right: 2px;
+  }
+  .IndicationsForUse_Header h2 {
+    font-size: 26px;
+  }
+  .IndicationsForUse_Block_One_Img {
+    display: none;
+  }
+  .IndicationsForUse_Buttons {
+    width: 100%;
+  }
+  .IndicationsForUse_Buttons_Btn_One {
+    width: 100%;
+  }
+  .IndicationsForUse_Buttons_Btn_One button {
+    width: 100%;
+  }
+  .IndicationsForUse_Buttons_Btn_Two {
+    width: 100%;
+  }
+  .IndicationsForUse_Buttons_Btn_Two button {
+    width: 100%;
+  }
+  .ProveBase_Header h2 {
+    font-size: 26px;
+  }
+  .ProveBase_Block_One {
+    padding-left: 2px;
+  }
+  .ProveBase_Block_One_Header p {
+    font-size: 22px;
+  }
+  .ProveBase_Block_Two {
+    padding-left: 2px;
+  }
+  .ProveBase_Block_Two_Header p {
+    font-size: 22px;
+  }
+  .ProveBase_KnowMore {
+    flex-direction: column;
+    min-height: 260px;
+    justify-content: normal;
+    padding: 20px 10px 20px 10px;
+  }
+  .ProveBase_KnowMore_Text {
+    width: 100%;
+  }
+  .ProveBase_KnowMore_Text p {
+    font-size: 22px;
+  }
+  .ProveBase_KnowMore a {
+    margin: 0 auto;
+  }
+  .ProveBase_KnowMore_Button {
+    width: 80%;
+  }
+  .HowDoesItWork_Header h2 {
+    font-size: 26px;
+  }
+  .HowDoesItWork_Clauses {
+    width: 100%;
+  }
+  .HowDoesItWork_Clauses ul {
+    padding: 0;
+  }
+  .HowDoesItWork_Clauses ul li p {
+    padding-left: 0px;
+    font-size: 16px;
+  }
+  .HowDoesItWork_Video_Wrapper {
+    display: none;
+  }
+  .DosageRegimen_Block_One_Header h2 {
+    font-size: 26px;
+  }
+  .DosageRegimen_Block_Two {
+    display: none;
+  }
+  .Locations_Block_Text {
+    font-size: 26px;
+  }
+  .Locations_Block_Button {
+    width: 100%;
+    padding: 10px;
+  }
+  .ListOfLiterature_Header h2 {
+    font-size: 26px;
+  }
+  .ListOfLiterature ol li a {
+    font-size: 4px;
+  }
+}
+@media (max-width: 320px) {
+  p {
+    font-size: 14px;
+  }
+}

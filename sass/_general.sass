@@ -1,0 +1,916 @@
+@mixin headerstext
+    font-size: 36px
+    font-weight: 700
+    color: #13353F
+@mixin spansText
+    font-weight: 600
+    
+@mixin usualtext
+    font-family: 'Montserrat'
+    font-style: normal
+    font-size: 18px
+    line-height: 140%
+header
+    min-height: 560px
+    padding-top: 60px
+    background: #F9F9F9
+    
+.Banner_Block
+    padding: 0
+    margin: 0 auto
+    position: relative
+    border: solid 1px #E2E2E2
+    display: flex
+    justify-content: space-between
+    margin: 0 auto
+    width: 1300px
+    background: linear-gradient(258.19deg, #66479B 0%, #4E86A5 52.6%, #43B3AE 100%)
+    border-radius: 34px
+    height: 500px
+    &_FamilyImg
+        display: inline
+        float: right
+        
+        img
+            width: 540px
+            height: 500px
+            border-radius: 0 34px 34px 0
+    &_Header
+        display: flex
+        align-items: center
+        width: 495px
+        h1
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 700
+            font-size: 42px
+            line-height: 140%
+            padding: 0
+            color: #FFFFFF
+    &_Logo
+        display: flex
+        align-items: center
+        
+        background: url("../icons/Rectangle.svg") no-repeat center/ cover
+        width: 107px
+        height: 130px            
+        img
+            display: block
+            margin: 0 auto
+            width: 93px
+            height:89px
+    &_DisignElement
+        position: absolute
+        width: 580px
+        height: 493px
+        left: 30px
+        bottom: 0
+        background: url("../icons/Y.png") no-repeat center/ cover
+        background-blend-mode: color-dodge
+        opacity: 0.1
+
+.OmicronisDangerous
+    z-index: -3
+    position: relative
+    padding: 166px 0 99px 0
+    background: #F9F9F9
+    .container
+        max-width: 1500px
+    &_Header
+        margin-bottom: 32px
+        h2
+            @include headerstext
+            margin-bottom: 0
+            padding: 0
+            float: left
+    &_Block
+        display: flex
+        gap: 140px
+        &_Information
+            width: 630px
+            &_Text
+                margin-bottom: 25px
+                p
+                    
+                    font-weight: 400
+                    @include usualtext
+                    /* or 23px */
+
+
+                    color: #000000
+            ul 
+                list-style: none
+                padding: 0
+                li
+                    display: flex
+                    align-items: flex-start
+                    p
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        font-weight: 500
+                        @include usualtext
+                        padding-left: 20px
+                        /* or 25px */
+                    
+                    img 
+                        width: 30px
+                        height: 30px
+
+
+                        color: #000000
+        &_Container
+            width: 520px
+            height: 514px
+
+            background: rgba(106, 72, 156, 0.1)
+            border: 3px solid #6A489C
+            border-radius: 16px
+            
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 600
+            font-size: 22px
+            line-height: 140%
+            /* or 31px */
+
+            text-align: center
+            padding: 133px 59px 102px 59px
+            color: #6A489C
+.rStain
+    position: absolute
+    display: inline
+    width: 100px
+    right: 400px
+    top: -80px
+    z-index: -2
+.OverViruses
+    position: absolute
+    left: 150px
+    width: 100px
+    z-index: -1
+
+.lStain
+    position: absolute
+    display: inline
+    width: 100px
+    left: 150px
+    z-index: -3
+.WhyHappendRisk
+    position: relative
+    min-height: 546px
+    background: rgba(71, 172, 173, 0.12)
+    padding: 115px 0 160px 0
+
+    &_Header
+        width: 100%
+        margin: 0 auto
+        margin-bottom: 64px
+        
+        h2
+            @include headerstext
+            padding: 0
+            text-align: center
+    &_Block
+        display: flex
+        justify-content: space-between
+        
+        
+        &_One
+            padding: 20px
+            width: 410px
+            min-height: 157px
+            background: #FFFFFF
+            border: 3px solid #46ADAD
+            border-radius: 12px
+            font-weight: 400
+            color: #218080
+            @include usualtext
+            span
+                @include spansText
+            
+        &_Two
+            padding: 20px
+            width: 410px
+            min-height: 157px
+            align-items: center
+            background: #FFFFFF
+            border: 3px solid #46ADAD
+            border-radius: 12px
+            font-weight: 400
+            color: #218080
+            @include usualtext
+            span
+                @include spansText
+        &_Three
+            padding: 20px
+            width: 410px
+            min-height: 157px
+            align-items: center
+            background: #FFFFFF
+            border: 3px solid #46ADAD
+            border-radius: 12px
+            font-weight: 400
+            color: #218080
+            @include usualtext
+            span
+                @include spansText
+
+.PatientsOfGroup
+    background: #F9F9F9
+    min-height: 924px
+    padding: 140px 0 180px 0
+    &_Header
+        width: 100%
+        margin: 0 auto
+        margin-bottom: 64px
+        h2
+            @include headerstext
+            text-align: center
+            padding: 0
+    &_Block
+        display: flex
+        justify-content: space-between
+        span
+            @include spansText
+            font-weight: 700
+        &_One
+            width: 610px
+            min-height: 490px
+            background: rgba(70, 173, 173, 0.05)
+            border: 3px solid #46ADAD
+            border-radius: 16px
+            &_Header
+                width: 100%
+                min-height: 130px
+                background: #46ADAD
+                border-radius: 10px 10px 0px 0px
+                @include usualtext
+                font-weight: 500
+                font-size: 20px
+                line-height: 150%
+                color: #FFFFFF
+                align-items: center
+                padding: 20px
+            &_Text
+                padding: 32px 58px 32px 55px
+                ul
+                    padding:0
+                    list-style: none
+                    li
+                        display: flex
+                        align-items: flex-start
+                        padding-bottom: 16px
+                        p
+                            margin-bottom: 0
+                            padding-bottom: 0
+                            padding-left: 20px
+                            @include usualtext
+                            font-weight: 500
+                            font-size: 18px
+                            color: #000000
+                        img 
+                            width: 30px
+                            height: 30px
+        &_Two
+            width: 610px
+            min-height: 490px
+            background: rgba(106, 72, 156, 0.05)
+            border: 3px solid #6A489C
+            border-radius: 16px
+            &_Header
+                width: 100%
+                min-height: 130px
+                background: #6A489C
+                border-radius: 10px 10px 0px 0px
+                @include usualtext
+                font-weight: 500
+                font-size: 20px
+                line-height: 150%
+                color: #FFFFFF
+                align-items: center
+                padding: 20px
+            &_Text
+                padding: 32px 58px 32px 55px
+                ul
+                    padding:0
+                    list-style: none
+                    li
+                        display: flex
+                        align-items: flex-start
+                        padding-bottom: 16px
+                        p
+                            padding-left: 20px
+                            margin-bottom: 0
+                            padding-bottom: 0
+                            @include usualtext
+                            font-weight: 500
+                            font-size: 18px
+                            color: #000000
+                        img 
+                            width: 30px
+                            height: 30px
+.lQuestion
+    position: absolute
+    width: 100px
+    right: 10%
+    bottom: 50px
+.rQuestion
+    position: absolute
+    top: 60px
+    left: 10%
+    width: 100px
+    
+.RiskIncrease
+    position: relative
+    min-height: 467px
+    background: rgba(106, 72, 156, 0.12)
+    padding: 120px 0 40px 0
+    &_Header
+        margin-bottom: 32px
+        h2
+            @include headerstext
+            text-align: center
+            padding: 0
+    &_Text
+        @include usualtext
+        span
+            @include spansText
+            
+        
+        font-weight: 400
+        /* or 25px */
+
+        text-align: center
+
+        color: #000000
+        width: 850px
+        margin: 0 auto
+
+.Viruses
+    position: absolute
+    width: 100%
+    left: 0
+    z-index: -1
+    bottom: 200px
+
+.Whypatients
+    z-index: 2
+    position: relative
+    padding: 140px 0 273px 0
+    background: #F9F9F9
+    &_Header
+        width: 733px
+        margin-bottom: 32px
+        h2
+            margin-bottom: 0
+            @include headerstext
+            
+    &_Block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        span
+            @include spansText
+            
+        &_Text
+            width: 672px
+            p
+                @include usualtext
+                line-height: 150%
+                font-weight: 400
+                color: #000000
+
+            p:first-child
+                margin-bottom: 16px
+        &_Image
+            width: 555px
+            height: 339px
+            
+            img
+                width: 100%
+                border-radius: 10px
+                height: 100%
+
+
+.ResultsOfUsing
+    min-height: 914px
+    background: rgba(1, 193, 178, 0.12)
+    &_Header
+        margin-bottom: 30px
+        width: 788px
+        h2
+            @include headerstext
+    &_Block
+        display: flex
+        padding-left: 40px
+        justify-content: space-between
+        &_Content
+            position: relative
+            width: 628px
+            span
+                @include spansText
+                color: #6A489C
+            p
+                @include usualtext
+                font-weight: 500
+                color: #000000
+            ul
+                padding: 0
+                margin: 0
+                li
+                    display: flex
+                    align-items: flex-start
+                    img
+                        width: 38px
+                        height: 38px
+                    p
+                        padding-left: 20px
+                        @include usualtext
+                        color: #000000
+                        float: left
+                        line-height: 150%
+            button
+                position: absolute
+                left: -40px
+                width: 630px
+                padding: 30px
+                background: linear-gradient(258.19deg, rgba(41, 209, 202, 0.95) 0%, rgba(131, 78, 165, 0.79) 49.78%, rgba(102, 71, 155, 0.89) 100%)
+                border-radius: 12px
+                @include usualtext
+                line-height: 28px
+                color: #FFFFFF
+                font-weight: 700
+                border: none
+        &_Images
+            padding-top: 117px
+            width: 520px
+            height: 543px
+            &_FirstCol
+                margin-bottom: 32px
+                display: flex
+                justify-content: space-between
+                img
+                    width: 244px
+                    border-radius: 20px
+            &_SecondCol
+                display: flex
+                justify-content: space-between
+                img
+                    width: 160px
+                    border-radius: 16px
+.ImportantNew
+    min-height: 1000px
+    padding: 143px 0 40px 0
+    background: #F9F9F9
+    &_Header
+        margin-bottom: 32px
+        h2
+            @include headerstext
+    &_Block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        &_Content
+            width: 590px
+            ul
+                list-style: none
+                padding: 0
+                li
+                    display: flex
+                    p
+                        @include usualtext
+                        font-weight: 400
+                        color: #000000
+                        padding-left: 16px
+        &_Image
+            position: relative
+            img:first-child
+                position: absolute
+                width: 573px
+                height: 382px
+                top: 36px
+                left: 20px
+            img:last-child
+                width: 609px
+                height: 546px
+
+    &_StatisticText
+        width: 630px
+        background: rgba(1, 193, 178, 0.05)
+        border-color: #01C1B2
+        border-width: 3px 3px 3px 18px
+        border-style: solid
+        border-radius: 12px
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 600
+        font-size: 16px
+        line-height: 28px
+        color: #218F87
+        padding: 24px 63px 4px 30px
+.IndicationsForUse
+    min-height: 1247px
+    background: #F9F9F9
+    padding: 120px 0 140px 0
+    &_Header
+        margin: 0 auto
+        width: 588px
+        margin-bottom: 64px
+        h2
+            margin-bottom: 0
+            @include headerstext
+            text-align: center
+    &_Block
+        display: flex
+        justify-content: space-between
+        margin-bottom: 72px
+        &_One
+            width: 620px
+            &_Img
+                margin: 0 auto
+                margin-bottom: 58px
+                img
+                    display: block
+                    margin: 0 auto
+
+            &_Text
+                background: rgba(106, 72, 156, 0.05)
+                border: 3px solid #6A489C
+                border-radius: 12px
+                padding: 32px 26px 32px 22px
+                width: 620px
+                p
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 20px
+                    line-height: 150%
+                    color: #6A489C
+                    margin-bottom: 0
+        &_Two
+            width: 620px
+            background: rgba(70, 173, 173, 0.05)
+            border: 3px solid #46ADAD
+            border-radius: 12px
+            padding: 24px 38px 32px 28px
+            &_Header
+                font-style: normal
+                font-weight: 700
+                font-size: 20px
+                line-height: 150%
+                color: #218080
+                margin-bottom: 16px
+            &_Text
+                ul
+                    margin-bottom: 0
+                    padding-left: 0
+                    li
+                        display: flex
+                        p:first-child
+                            padding-right: 16px
+                        p
+                            @include usualtext
+                            font-weight: 500
+                            font-size: 18px
+                            line-height: 150%
+                            color: #218080
+                            padding-bottom: 12px
+                            margin-bottom: 0
+    &_Buttons
+        display: flex
+        margin: 0 auto
+        width: 200px
+        flex-direction: column
+        &_Btn
+            &_One
+                width: 350px
+                height: 87px
+                background: linear-gradient(258.19deg, rgba(41, 209, 202, 0.95) 0%, rgba(131, 78, 165, 0.79) 49.78%, rgba(102, 71, 155, 0.89) 100%)
+                border-radius: 12px
+                border: none
+                margin-bottom: 20px
+                button
+                    width: 350px
+                    height: 87px
+                    background: linear-gradient(258.19deg, rgba(41, 209, 202, 0.95) 0%, rgba(131, 78, 165, 0.79) 49.78%, rgba(102, 71, 155, 0.89) 100%)
+                    border-radius: 12px
+                    border: none
+                    a
+                        text-align: center
+                        text-decoration: none
+                        @include usualtext
+                        font-weight: 700
+                        line-height: 150%
+                        color: #FFFFFF
+        
+            &_Two
+                width: 350px
+                height: 87px
+                background: linear-gradient(258.19deg, #66479B 0%, #834EA5 50.52%, #43B3AE 100%)
+                border-radius: 12px
+                border: none
+                padding: 4px
+                button
+                    border: 10px solid white
+                    background: white
+                    border-radius: 10px
+                    width: 342px
+                    height: 79px
+                    padding: 12px
+                    a
+                        
+                        display: block
+                        text-align: center
+                        text-decoration: none
+                        @include usualtext
+                        font-weight: 700
+                        line-height: 150%
+                        color: #000000
+                        
+                        color: transparent    
+                        -webkit-background-clip: text
+                        background-clip: text
+                        background-image: linear-gradient(258.19deg, #66479B 0%, #834EA5 50.52%, #43B3AE 100%)
+.ProveBase
+    background: rgba(106, 72, 156, 0.1)
+    padding: 120px 0 140px 0
+    &_Header
+        margin: 0 auto
+        width: 394px
+        margin-bottom: 56px
+        h2
+            @include headerstext
+            text-align: center
+            margin-bottom: 0
+    &_Block
+        display: flex
+        justify-content: space-between
+        margin-bottom: 50px
+        &_One
+            background: #ffffff
+            min-height: 493px
+            width: 620px
+            border-radius: 16px
+            padding: 43px 54px 20px 32px
+            &_Header
+                display: flex
+                align-items: center
+                margin-bottom: 16px
+                p
+                    margin-bottom: 0
+                    padding-left: 22px
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 600
+                    font-size: 24px
+                    line-height: 140%
+                    color: #6A489C
+            &_Content
+                    ul
+                        padding: 0
+                        list-style: none
+                        li
+                            display: flex
+                            align-items: flex-start
+                            p
+                                padding-left: 16px
+                                @include usualtext
+                                font-weight: 400
+                                line-height: 140%
+                                color: #43276B
+
+        &_Two
+            background: #ffffff
+            min-height: 493px
+            width: 620px
+            border-radius: 16px
+            padding: 43px 54px 20px 32px
+            &_Header
+                display: flex
+                align-items: center
+                margin-bottom: 16px
+                p
+                    margin-bottom: 0
+                    padding-left: 22px
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 600
+                    font-size: 24px
+                    line-height: 140%
+                    color: #6A489C
+            &_Content
+                    ul
+                        padding: 0
+                        list-style: none
+                        li
+                            display: flex
+                            align-items: flex-start
+                            p
+                                padding-left: 16px
+                                @include usualtext
+                                font-weight: 400
+                                line-height: 140%
+                                color: #43276B
+    &_KnowMore
+        width: 100%
+        background: linear-gradient(258.19deg, #66479B 0%, #834EA5 50.52%, #43B3AE 100%)
+        border-radius: 16px
+        height: 194px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 0
+        padding: 0 64px 0 47px
+        &_Text
+            width: 647px
+            p
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: 24px
+                line-height: 140%
+                color: #FFFFFF
+        &_Button
+            width: 294px
+            height: 87px
+            button
+                border-radius: 12px
+                border: none
+                background: #FFFFFF
+                padding: 30px 56px
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: 18px
+                line-height: 150%
+                text-transform: uppercase
+                color: #7366A7
+.HowDoesItWork
+    padding: 0 0 140px 0
+    .container
+        max-width: 860px
+    &_Header
+        margin: 0 auto
+        margin-bottom: 24px
+        h2
+            @include headerstext
+            text-align: center
+            margin-bottom: 0
+            padding: 0
+    &_Clauses
+        margin-bottom: 52px
+        ul
+            li
+                display: flex
+                align-items: flex-start
+                margin-bottom: 16px
+                p
+                    @include usualtext
+                    padding-left: 24px
+                    font-weight: 500
+                    line-height: 28px
+                    color: #000000
+                    margin-bottom: 0
+    &_Video
+        width: 850px
+        margin: 0 auto
+        height: 400px
+        position: relative
+        iframe
+            width: 100%
+            height: 100%
+            border-radius: 12px
+        &_Wrapper
+            position: absolute
+            top: 0
+            width: 100%
+            height: 100%
+.fade
+    opacity: 0
+    visibility: hidden
+    transition: opacity 2s, visibility 0s 2s
+
+.DosageRegimen
+    min-height: 772px
+    background: rgba(1, 193, 178, 0.1)
+    padding: 120px 0 140px 0
+    &_Block
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &_One
+            width: 735px
+            &_Header
+                margin-bottom: 40px
+                h2
+                    margin-bottom: 0
+                    @include headerstext
+                    line-height: 140%
+                    sup
+                        @include usualtext
+                        font-weight: 500
+            &_Text
+                ul
+                    padding: 0
+                    list-style: none
+                    li
+                        display: flex
+                        margin-bottom: 24px
+                        p
+                            padding: 0
+                            padding-left: 24px
+                            font-weight: 500
+                            @include usualtext
+                            span
+                                font-weight: 700
+                                font-size: 20px
+                                color: #01C1B2
+            &_Two
+                height: 587px
+                img
+                    width: 100%
+                    height: 100%
+.Locations
+    min-height: 543px
+    background: #F9F9F9
+    padding: 140px 0 40px 0
+    &_Block
+        width: 100%
+        height: 403px
+        padding: 80px 0 90px 0
+        background: linear-gradient(258.19deg, #43B3AE 0%, #834EA5 52.6%, #66479B 100%)
+        border-radius: 16px
+        &_Text
+            width: 800px
+            margin: 0 auto
+            @include headerstext
+            line-height: 140%
+            text-align: center
+            color: #FFFFFF
+            margin-bottom: 46px
+        &_Button
+            width: 441px
+            height: 87px
+            margin: 0 auto
+            button
+                background: #FFFFFF
+                border-radius: 12px
+                padding: 30px 56px
+                border: none
+                font-weight: 700
+                font-size: 18px
+                line-height: 150%
+                text-transform: uppercase
+                color: #7366A7
+.ListOfLiterature
+    min-height: 1583px
+    width: 100%
+    padding: 58px 0 78px 0
+    &_Header
+        margin-bottom: 54px
+        display: flex
+        gap: 20px
+        align-items: center
+        h2
+            @include headerstext
+            text-align: left
+            padding-left: 30px
+    ol
+        li
+            @include usualtext
+            font-weight: 600
+            padding-bottom: 20px
+            a 
+                color: black
+                font-size: 16px
+
+footer
+    padding: 120px 0 40px 0
+    .container
+        max-width: 1289px
+    min-height: 568px
+    background: #131F56
+    .Block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        &_Text
+            width: 855px
+            @include usualtext
+            font-weight: 400
+            font-size: 16px
+            line-height: 150%
+            color: #FFFFFF
+            p:first-child
+                width: 715px
+                font-weight: 500
+            a
+                text-decoration: none
+                color: #FFFFFF
+            address
+                width: 777px
+        &_Img
+            width: 260px
+            img:first-child
+                display: block
+                margin-bottom: 75px
